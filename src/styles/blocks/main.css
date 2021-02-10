@@ -1,0 +1,85 @@
+/* Main */
+
+.main__container {
+  background-color: #e9e9e9;
+}
+
+@media (width <= 640px) {
+  .main__container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (640px <= width <= 1600px ) {
+  .main__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (width > 1200px) {
+  .main__container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4.1%;
+    padding-left: 4.1%;
+  }
+}
+
+@media (width > 1200px) {
+  .main__content {
+    width: 64.5%;
+  }
+}
+
+@media (560px <= width <= 1200px ) {
+  .main__aside {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 28px;
+  }
+}
+
+@media (width > 1200px) {
+  .main__aside {
+    width: 31.5%;
+    padding-top: 40px;
+  }
+}
+
+@media (width <= 560px) {
+  .main__signup {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 28px;
+    border-radius: 0;
+  }
+}
+
+@media (560px <= width <= 1200px ) {
+  .main__signup {
+    margin-right: 28px;
+    width: 50%;
+    border-radius: 0;
+  }
+}
+
+@media (width > 1200px) {
+  .main__signup {
+    margin-bottom: 28px;
+  }
+}
+
+@media (width <= 560px) {
+  .main__monitor {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+@media (560px <= width <= 1200px ) {
+  .main__monitor {
+    width: 50%;
+  }
+}

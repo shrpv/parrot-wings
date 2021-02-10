@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+  <head>
+    <title>ParrotWings</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="fonts/oswald/light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body class="page__body">
+    <header class="page__header header">
+      <nav class="header__menu menu">
+        <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+          <img class="menu__image" src="images/header/menu.png" alt="" width="38" height="28">
+        </button>
+        <div class="menu__container">
+          <ul class="menu__list" id="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Credits</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Exchange</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Partners</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Stock</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Holding</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">About</a>
+            </li>
+          </ul>
+          <p class="menu__title">ParrotWings Exchange</p>
+        </div>
+      </nav>
+      <button class="header__search" type="button" aria-label="Search button">
+        <img class="header__image" src="images/header/search.png" alt="" width="35" height="35">
+      </button>
+    </header>
+    <main class="page__main main">
+      <div class="main__container container">
+        <div class="main__content exchange">
+          <div class="exchange__header">
+            <h1 class="exchange__title">ParrotWings Exchange</h1>
+            <div class="exchange__search search">
+              <input class="search__textbox textbox" type="search" placeholder="Search...">
+              <button class="search__button" type="button">
+                <img class="search__image" src="images/magnifying-glass.svg" width="20" height="20" alt="Search product">
+              </button>
+            </div>
+          </div>
+          <h2 class="exchange__subtitle">Products</h2>
+          <div class="exchange__products">
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/unlimited-exchange.jpg" alt="Unlimited exchange poster">
+              </div>
+              <p class="product-card__availability">2 props</p>
+              <h3 class="product-card__title">Unlimited exchange</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/international-exchange.jpg" alt="International exchange poster">
+              </div>
+              <p class="product-card__availability">1 prop</p>
+              <h3 class="product-card__title">International exchange</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/additional-services.jpg" alt="Additional services poster">
+              </div>
+              <p class="product-card__availability">3 props, all</p>
+              <h3 class="product-card__title">Additional services</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/support.jpg" alt="Support poster">
+              </div>
+              <p class="product-card__availability">5 props</p>
+              <h3 class="product-card__title">Support</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/holiday-works.jpg" alt="Holiday works poster">
+              </div>
+              <p class="product-card__availability">2 props</p>
+              <h3 class="product-card__title">Holiday works</h3>
+              <button class="product-card__order button" type="button">Order</button>
+              <div class="product-card__tooltip tooltip">
+                <p class="tooltip__title">Popup header</p>
+                <p class="tooltip__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              </div>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/postal-delivery.jpg" alt="Postal delivery poster">
+              </div>
+              <p class="product-card__availability">not in access</p>
+              <h3 class="product-card__title">Postal delivery</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/document-managment.jpg" alt="Document managment poster">
+              </div>
+              <p class="product-card__availability">2 props</p>
+              <h3 class="product-card__title">Document managment</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+            <article class="exchange__item product-card">
+              <div class="product-card__poster">
+                <img class="product-card__image" src="/images/product/promotions.jpg" alt="Promotions poster">
+              </div>
+              <p class="product-card__availability">1 prop</p>
+              <h3 class="product-card__title">Promotions</h3>
+              <button class="product-card__order button" type="button">Order</button>
+            </article>
+          </div>
+          <div class="exchange__actions">
+            <button class="exchange__more" type="button">More products...</button>
+          </div>
+        </div>
+        <div class="main__aside">
+          <form class="main__signup signup block" action="">
+            <h2 class="block__title">Sign Up</h2>
+            <hr class="block__hr">
+            <div class="block__body">
+              <input class="signup__first-name textbox" type="text" placeholder="First Name" required>
+              <input class="signup__last-name textbox" type="text" placeholder="Last Name" required>
+              <input class="signup__email textbox" type="email" placeholder="Email" required>
+              <p class="signup__disclaimer">By creating a PW Exchange Account you acknowledge that you have read, understood and agree to the <a class="signup__link" href="#">Terms&nbsp;of&nbsp;Use</a> and <a class="signup__link" href="#">Privacy&nbsp;Policy</a>.</p>
+            </div>
+            <div class="block__actions">
+              <button class="block__button button" type="submit">Sign Up</button>
+            </div>
+          </form>
+          <div class="main__monitor monitor block block--loaded">
+            <h2 class="block__title">Online Monitor</h2>
+            <hr class="block__hr">
+            <div class="block__body"></div>
+            <div class="block__actions">
+              <button class="block__button button" type="submit">Connect</button>
+            </div>
+            <div class="block__loader loader">
+              <i class="loader__icon fontello-spin6"></i>
+              <p class="loader__text">Loading...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page__footer footer">
+      <div class="footer__header">
+        <div class="footer__container">
+          <ul class="footer__social social">
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Evernote">
+                <svg class="social__icon" aria-hidden="true">
+                  <use href="#evernote"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Facebook">
+                <svg class="social__icon" aria-hidden="true">
+                  <use href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Pinterest">
+                <svg class="social__icon" aria-hidden="true">
+                  <use href="#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Twitter">
+                <svg class="social__icon" aria-hidden="true">
+                  <use href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Youtube">
+                <svg class="social__icon" aria-hidden="true">
+                  <use href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item"> 
+              <a class="social__link" href="#" aria-label="Github">
+                <svg class="social__icon" aria-hidden="true">
+                  <use href="#github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__copyright">© Parrot Wings</p>
+        </div>
+      </div>
+      <div class="footer__body">
+        <div class="footer__container">
+          <div class="footer__row">
+            <div class="footer__blocks">
+              <div class="footer__links links-block">
+                <h3 class="links-block__title">Recruitment Info</h3>
+                <ul class="links-block__list" aria-label="Recruitment Info">
+                  <li class="links-block__item">Candidate First Name: Dmitry</li>
+                  <li class="links-block__item">Candidate Last Name: Sharipov</li>
+                  <li class="links-block__item">Spent Time: X hours</li>
+                  <li class="links-block__item">Email: dm.sharipov@mail.ru</li>
+                  <li class="links-block__item">Test date: 04.02.2021</li>
+                </ul>
+              </div>
+              <div class="footer__links links-block">
+                <h3 class="links-block__title">Resources</h3>
+                <ul class="links-block__list" aria-label="Resources">
+                  <li class="links-block__item">Loader icon --- search on Fontello.com</li>
+                  <li class="links-block__item">Icons --- Entypo</li>
+                  <li class="links-block__item">Fonts --- search in this file</li>
+                  <li class="links-block__item">Background --- standart situation: designer lose file</li>
+                </ul>
+              </div>
+              <div class="footer__links links-block">
+                <h3 class="links-block__title">Navigation</h3>
+                <ul class="links-block__list" aria-label="Navigation">
+                  <li class="links-block__item">
+                    <a class="links-block__link" href="#">Development</a>
+                  </li>
+                  <li class="links-block__item">
+                    <a class="links-block__link" href="#">Application</a>
+                  </li>
+                  <li class="links-block__item">
+                    <a class="links-block__link" href="#">Holding</a>
+                  </li>
+                  <li class="links-block__item">
+                    <a class="links-block__link" href="#">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__stack stack">
+              <ul class="stack__list" aria-label="Project stack">
+                <li class="stack__item">
+                  <a class="stack__link" href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img class="stack__image" src="images/browser/firefox.png" width="22" height="22" alt="Firefox">
+                  </a>
+                </li>
+                <li class="stack__item">
+                  <a class="stack__link" href="https://www.google.com/chrome/">
+                    <img class="stack__image" src="images/browser/chrome.png" width="22" height="22" alt="Chrome">
+                  </a>
+                </li>
+                <li class="stack__item">
+                  <a class="stack__link" href="https://www.microsoft.com/en-us/download/internet-explorer.aspx">
+                    <img class="stack__image" src="images/browser/internet-explorer.png" width="22" height="22" alt="Internet Explorer">
+                  </a>
+                </li>
+                <li class="stack__item">
+                  <a class="stack__link" href="https://support.apple.com/downloads/safari">
+                    <img class="stack__image" src="images/browser/safari.png" width="22" height="23" alt="Safari">
+                  </a>
+                </li>
+                <li class="stack__item">
+                  <a class="stack__link" href="https://www.opera.com/ru/download">
+                    <img class="stack__image" src="images/browser/opera.png" width="22" height="23" alt="Opera">
+                  </a>
+                </li>
+              </ul>
+              <p class="stack__description">Project should work on next stack:<br>IE11, actual version of Firefox, Chrome on desktop and android, Opera (opera mini), Safari on mac and ios.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="evernote" viewBox="0 0 20 20"><path d="M17.3 4.3c0-1.2-1.7-1.3-1.7-1.3l-4.1-.3s-.1-1.1-.9-1.5C9.8.9 8.9 1 8.3 1c-.7 0-.8.9-.8 1.6v2.2c0 1-.4 1.4-1.6 1.4H3.6c-.6 0-1.1.1-1.1.6s.8 5 1.8 6c.6.6 4.3 1 5.1 1s.5-2.3.7-2.3.5 1.3 1.7 1.6c1.2.3 2.9.2 3 1.1.1 1.2.2 2.6-.5 2.7l-1.7.1c-1.2-.1-.9-1.4-.3-1.4h.8l.1-1.4s-2.7-.3-2.8 1.5c-.1 1.7.2 2.4.4 2.6.2.2.6.5 3.9.5 4.3.2 2.6-13.3 2.6-14.5zm-1.9 6c-.1.2-.8-.3-1.4-.3-.6 0-1.3.3-1.5.1-.2-.2.1-2 1.3-2s1.8 2 1.6 2.2zM5.3 4.6H2.4l3.5-3.4s-.1 2.8-.1 3c0 .2-.1.4-.5.4z"/></symbol>
+      <symbol id="facebook" viewBox="0 0 20 20"><path d="M17 1H3c-1.1 0-2 .9-2 2v14c0 1.101.9 2 2 2h7v-7H8V9.525h2v-2.05c0-2.164 1.212-3.684 3.766-3.684l1.803.002v2.605h-1.197c-.994 0-1.372.746-1.372 1.438v1.69h2.568L15 12h-2v7h4c1.1 0 2-.899 2-2V3c0-1.1-.9-2-2-2z"/></symbol>
+      <symbol id="github" viewBox="0 0 20 20"><path d="M13.18 11.309c-.718 0-1.3.807-1.3 1.799 0 .994.582 1.801 1.3 1.801s1.3-.807 1.3-1.801c-.001-.992-.582-1.799-1.3-1.799zm4.526-4.683c.149-.365.155-2.439-.635-4.426 0 0-1.811.199-4.551 2.08-.575-.16-1.548-.238-2.519-.238-.973 0-1.945.078-2.52.238C4.74 2.399 2.929 2.2 2.929 2.2c-.789 1.987-.781 4.061-.634 4.426C1.367 7.634.8 8.845.8 10.497c0 7.186 5.963 7.301 7.467 7.301l1.734.002 1.732-.002c1.506 0 7.467-.115 7.467-7.301 0-1.652-.566-2.863-1.494-3.871zm-7.678 10.289h-.056c-3.771 0-6.709-.449-6.709-4.115 0-.879.31-1.693 1.047-2.369C5.537 9.304 7.615 9.9 9.972 9.9h.056c2.357 0 4.436-.596 5.664.531.735.676 1.045 1.49 1.045 2.369 0 3.666-2.937 4.115-6.709 4.115zm-3.207-5.606c-.718 0-1.3.807-1.3 1.799 0 .994.582 1.801 1.3 1.801.719 0 1.301-.807 1.301-1.801 0-.992-.582-1.799-1.301-1.799z"/></symbol>
+      <symbol id="pinterest" viewBox="0 0 20 20"><path d="M8.617 13.227C8.091 15.981 7.45 18.621 5.549 20c-.586-4.162.861-7.287 1.534-10.605-1.147-1.93.138-5.812 2.555-4.855 2.975 1.176-2.576 7.172 1.15 7.922 3.891.781 5.479-6.75 3.066-9.199C10.369-.275 3.708 3.18 4.528 8.245c.199 1.238 1.478 1.613.511 3.322-2.231-.494-2.897-2.254-2.811-4.6.138-3.84 3.449-6.527 6.771-6.9 4.201-.471 8.144 1.543 8.689 5.494.613 4.461-1.896 9.293-6.389 8.945-1.218-.095-1.728-.699-2.682-1.279z"/></symbol>
+      <symbol id="twitter" viewBox="0 0 20 20"><path d="M17.316 6.246c.008.162.011.326.011.488 0 4.99-3.797 10.742-10.74 10.742-2.133 0-4.116-.625-5.787-1.697a7.577 7.577 0 0 0 5.588-1.562 3.779 3.779 0 0 1-3.526-2.621 3.858 3.858 0 0 0 1.705-.065 3.779 3.779 0 0 1-3.028-3.703v-.047a3.766 3.766 0 0 0 1.71.473 3.775 3.775 0 0 1-1.168-5.041 10.716 10.716 0 0 0 7.781 3.945 3.813 3.813 0 0 1-.097-.861 3.773 3.773 0 0 1 3.774-3.773 3.77 3.77 0 0 1 2.756 1.191 7.602 7.602 0 0 0 2.397-.916 3.789 3.789 0 0 1-1.66 2.088 7.55 7.55 0 0 0 2.168-.594 7.623 7.623 0 0 1-1.884 1.953z"/></symbol>
+      <symbol id="youtube" viewBox="0 0 20 20"><path d="M10 2.3C.172 2.3 0 3.174 0 10s.172 7.7 10 7.7 10-.874 10-7.7-.172-7.7-10-7.7zm3.205 8.034l-4.49 2.096c-.393.182-.715-.022-.715-.456V8.026c0-.433.322-.638.715-.456l4.49 2.096c.393.184.393.484 0 .668z"/></symbol>
+    </svg>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

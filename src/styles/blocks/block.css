@@ -1,0 +1,70 @@
+/* Block */
+
+.block {
+  padding: 14px 21px 21px;
+
+  background-color: #dadada;
+  border-radius: 3px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.35);
+}
+.block__title {
+  margin: 0;
+  margin-bottom: 12px;
+  padding-left: 14px;
+
+  font-weight: 300;
+  font-size: 28px;
+  font-family: "Oswald";
+  color: #222222;
+}
+.block__hr {
+  margin: 0;
+  margin-bottom: 13px;
+
+  border-top: 1px solid #c3c3c3;
+  border-bottom: 1px solid #e4e4e4;
+}
+.block__body {
+  min-height: 171px;
+}
+.block__actions {
+  padding-top: 13px;
+
+  text-align: right;
+}
+.block__button {
+  min-width: 137px;
+  margin-right: 14px;
+  padding: 6px 10px;
+
+  font-weight: 700;
+  font-size: 15px;
+
+  border-radius: 7px;
+}
+.block__button:last-child {
+  margin-right: 0;
+}
+.block__loader {
+  display: none;
+}
+.block--loaded {
+  position: relative;
+
+  pointer-events: none;
+}
+.block--loaded > .block__loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(227, 227, 227, 0.85);
+  border-radius: inherit;
+}

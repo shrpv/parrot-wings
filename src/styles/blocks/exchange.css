@@ -1,0 +1,172 @@
+/* Exchange */
+
+@media (width <= 640px) {
+  .exchange {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (width > 640px) {
+  .exchange {
+    padding-top: 38px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (width <= 640px) {
+  .exchange__header {
+    display: none;
+  }
+}
+
+@media (width > 640px) {
+  .exchange__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 13px;
+  }
+}
+
+@media (width > 640px) {
+  .exchange__title {
+    margin: 0;
+  
+    font-weight: 300;
+    font-size: 34px;
+    font-family: "Oswald";
+  }
+}
+
+@media (width > 640px) {
+  .exchange__search {
+    flex-basis: 254px;
+    margin-top: 12px;
+  }
+}
+
+.exchange__subtitle {
+  position: relative;
+
+  margin: 0;
+
+  font-weight: 300;
+  font-size: 26px;
+  font-family: "Oswald";
+}
+.exchange__subtitle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+
+  width: 19px;
+  height: 8px;
+  margin-top: -1px;
+
+  background-color: #933435;
+}
+
+@media (width <= 640px) {
+  .exchange__subtitle {
+    padding-left: 25px;
+    margin-bottom: 17px;
+  }
+  .exchange__subtitle::before {
+    left: 0;
+  }
+}
+
+@media (width > 640px) {
+  .exchange__subtitle {
+    margin-bottom: 26px;
+  
+  }
+  .exchange__subtitle::before {
+    left: -26px;
+  }
+}
+
+.exchange__products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media (width <= 640px) {
+  .exchange__products {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (width > 640px) {
+  .exchange__products {
+    margin-right: -18px;
+    margin-left: -18px;
+  }
+}
+
+@media (width <= 420px) {
+  .exchange__item {
+    width: calc((100% - 2 * 28px) / 2);
+  }
+}
+
+@media (420px < width <= 640px ) {
+  .exchange__item {
+    width: calc((100% - 3 * 28px) / 3);
+  }
+}
+
+@media (640px < width <= 960px ) {
+  .exchange__item {
+    width: calc((100% - 4 * 22px) / 4);
+  }
+}
+
+@media (960px < width <= 1600px ) {
+  .exchange__item {
+    width: calc((100% - 5 * 22px) / 5);
+  }
+}
+
+@media (width > 1600px ) {
+  .exchange__item {
+    width: calc((100% - 6 * 22px) / 6);
+  }
+}
+
+@media (width <= 640px ) {
+  .exchange__item {
+    margin-right: 14px;
+    margin-bottom: 46px;
+    margin-left: 14px;
+  }
+}
+
+@media (width > 640px) {
+  .exchange__item {
+    margin-right: 11px;
+    margin-bottom: 51px;
+    margin-left: 11px;
+  }
+}
+
+.exchange__actions {
+  text-align: center;
+}
+.exchange__more {
+  padding: 0;
+
+  font-size: 16px;
+  color: #444444;
+  text-decoration: underline;
+
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+.exchange__more:hover {
+  text-decoration: none;
+}

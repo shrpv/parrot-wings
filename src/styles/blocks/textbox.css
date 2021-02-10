@@ -1,0 +1,33 @@
+/* Textbox */
+
+.textbox {
+  display: block;
+  width: 100%;
+  padding: 15px 15px 9px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Arial";
+  color: #222222;
+
+  background-color: #ffffff;
+  border: 1px #c0c0c0 solid;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 1px #d8d8d8;
+
+  appearance: none;
+}
+textarea.textbox {
+  resize: none;
+}
+.textbox::-moz-placeholder {
+  color: #a3a3a3;
+
+  opacity: 1;
+}
+.textbox:-ms-input-placeholder {
+  color: #a3a3a3;
+}
+.textbox::-webkit-input-placeholder {
+  color: #a3a3a3;
+}

@@ -1,0 +1,26 @@
+/* Search */
+
+.search {
+  position: relative;
+}
+.search__textbox {
+  padding: 10px 11px 7px;
+
+  font-size: 14px;
+}
+.search__button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+
+  padding: 4px;
+
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+.search__image {
+  display: block;
+
+  opacity: 0.28;
+}

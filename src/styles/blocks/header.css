@@ -1,0 +1,50 @@
+.header {
+  background-color: #060605;
+  background-repeat: no-repeat;
+  background-image: url("../../images/header/bg.jpg");
+}
+
+@media (width <= 640px) {
+  .header {
+    position: relative;
+
+    padding-top: 64px;
+
+    background-position: center bottom;
+  }
+}
+
+@media (width > 640px) {
+  .header {
+    padding-top: 110px;
+
+    background-position: center;
+    background-size: auto 100%;
+  }
+}
+
+@media (width <= 640px) {
+  .header__search {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+
+    padding: 0;
+
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+@media (width > 640px) {
+  .header__search {
+    display: none;
+  }
+}
+
+@media (width <= 640px) {
+  .header__image {
+    display: block;
+  }
+}

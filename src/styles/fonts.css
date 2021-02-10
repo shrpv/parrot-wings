@@ -1,0 +1,11 @@
+/* Oswald Light */
+
+@font-face {
+  font-weight: 300;
+  font-family: "Oswald";
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/oswald/light.woff2") format("woff2"),
+  url("../fonts/oswald/light.woff") format("woff");
+}

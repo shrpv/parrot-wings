@@ -1,0 +1,42 @@
+/* Stack */
+
+.stack__description {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.25;
+  color: #5c5c5c;
+  letter-spacing: -0.025em;
+}
+.stack__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@media (width <= 1200px) {
+  .stack__list {
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+}
+
+@media (width > 1200px) {
+  .stack__list {
+    justify-content: flex-end;
+    margin-bottom: 11px;
+  }
+}
+
+.stack__item {
+  margin-right: 22px;
+}
+.stack__item:last-child {
+  margin-right: 0;
+}
+.stack__image {
+  display: block;
+}

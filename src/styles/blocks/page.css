@@ -1,0 +1,36 @@
+/* Page */
+
+.page {
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+  color: #121212;
+
+  background-color: #000000;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.page__body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+@media (width <= 960px) {
+  .page {
+    background-image: url("../../images/bg.jpg");
+    background-repeat: repeat;
+    background-position: center;
+  }
+  .page__body {
+    min-width: 320px;
+  }
+}
+
+@media (width > 960px) {
+  .page__main {
+    width: 83.57%;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
